@@ -49,3 +49,8 @@ button:active {
   background: #74c69d;
   border-color: #74c69d;
 }
+
+.invalid {
+  margin-left: 20px;
+  color: red;
+}
