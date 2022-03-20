@@ -19,7 +19,7 @@ const NewTodo: React.FC<NewTodoProps> = (props) => {
         <label htmlFor="todo-text">Todo</label>
         <input type="text" id="todo-text" ref={inputRef} />
       </div>
-      <button type="submit">Add todo</button>
+      <button type="submit">Add Todo</button>
     </form>
   );
 };
