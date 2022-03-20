@@ -12,6 +12,7 @@ const NewTodo: React.FC<NewTodoProps> = (props) => {
     event.preventDefault();
     const enteredText = inputRef.current!.value;
     props.onAddTodo(enteredText);
+    inputRef.current!.value = "";
   };
   return (
     <form onSubmit={submitHandler}>
